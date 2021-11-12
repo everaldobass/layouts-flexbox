@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#container{
+    width: 1200px;
+    height: 1500px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+aside{
+    width: 400px;
+    height: 1500px;
+    background-color: turquoise;
+    display: flex;
+}
+
+#coluna{
+    width: 800px;
+    height: 1500px;
+    display: flex;
+    flex-flow: column wrap;
+   
+}
+
+#um{
+    width: 800px;
+    height: 250px;
+    background-color:teal;
+    margin-bottom: 30px;
+}
+.dois{
+    width: 800;
+    height: 150px;
+    background-color: rgb(12, 91, 194);
+    margin-bottom: 20px;
+}
+
+#tres{
+    width: 800px;
+    height: 600px;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+article{
+    width: 340px;
+    height: 285px;
+    background-color: green;
+
+}
